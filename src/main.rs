@@ -5,6 +5,7 @@ mod client_direct;
 mod prover;
 
 use std::{net::ToSocketAddrs, sync::Arc};
+use colored::*;
 
 use clap::Parser;
 use rand::seq::SliceRandom;
@@ -221,6 +222,7 @@ async fn vanity() {
 
     /// Returns the welcome message as a string.
     pub fn welcome_message() -> String {
+        use colored::*;
 
         let mut output = String::new();
         output += &r#"
