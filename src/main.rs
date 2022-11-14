@@ -157,7 +157,7 @@ async fn main() {
     }
 
     // println!("{}", welcome_message());
-    info!(welcome_message().as_str());
+    info!("{}", welcome_message().as_str());
 
     // info!("Starting prover124214");
 
