@@ -155,7 +155,8 @@ async fn main() {
         }
     }
 
-    println!("{}", welcome_message());
+    // println!("{}", welcome_message());
+    info!(welcome_message());
 
 
     info!("Starting prover");
