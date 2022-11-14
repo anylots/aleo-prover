@@ -158,6 +158,7 @@ async fn main() {
     // println!("{}", welcome_message());
     info!(welcome_message());
 
+    info!("Starting prover124214");
 
     info!("Starting prover");
     // if opt.old_protocol {
